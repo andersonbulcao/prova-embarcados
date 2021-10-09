@@ -1,1 +1,17 @@
+#include<stdio.h>
 
+int main (){
+	Int a = false; 
+	Int x;			
+	
+	if(a){
+		printf("Saida\n\t%d", *(&x));
+		x = !(!a);
+	}else{
+		printf("Saida\n\t%d", a, *(&x));
+		x = !(!a);
+	}
+
+
+	return 0;
+}
