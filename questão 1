@@ -1,4 +1,4 @@
-a) --importa std_logic da IEEE library
+a) --importa std_logic da IEEE library         
 library IEEE;
 use IEEE.std_logic_1164.all;
 
