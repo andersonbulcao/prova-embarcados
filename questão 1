@@ -1,0 +1,42 @@
+a) --importa std_logic da IEEE library
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+--Declara uma entidade
+entity ANDGATE is
+    port(
+        B: in std_logic;
+        X: out std_logic);
+
+end ANDGATE
+
+architecture RTL of ANDGATE is
+
+
+begin
+
+    X<= not A
+
+    end RTL;
+
+
+b) --importa std_logic da IEEE library
+library IEE;
+use IEEE.std_logic_1164.all;
+
+--Declara uma entidade
+entity ANDGATE is
+    port(
+        B: in std_logic;
+        A: in std_logic;
+        X: out std_logic);
+
+end ANDGATE
+
+architecture RTL of ANDGATE is
+
+begin
+
+    Y <= not B
+
+    end RTL;
