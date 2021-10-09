@@ -1,1 +1,16 @@
-Co-sintetização é o mapeamento automático do protótipo virtual para o protótipo real, de tal forma que todas as restrições são satisfeitas.  
+fn  main() {
+    let mut a = false; // true = 1 e false 0 
+    let mut x;      //Saida
+        
+        println!("True = 1   False = 0\n");
+        
+        if a { 
+            x = !(!a);
+            println!("!(!{})\n",x );
+            println!("{}", x);
+            
+        } else {
+            x = !(!a); 
+            println!("{}", x);
+        }
+    }
